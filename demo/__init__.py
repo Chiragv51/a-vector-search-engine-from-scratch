@@ -1,0 +1,1 @@
+"""Interactive CLI demo package."""

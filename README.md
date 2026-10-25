@@ -1,6 +1,6 @@
 # Vector Search Engine from Scratch
 
-[![Tests](https://img.shields.io/badge/pytest-27%20passed-brightgreen.svg)]()
+[![Tests](https://img.shields.io/badge/pytest-32%20passed-brightgreen.svg)]()
 [![Python](https://img.shields.io/badge/python-3.11%20%7C%203.12%20%7C%203.13-blue.svg)]()
 [![FAISS](https://img.shields.io/badge/FAISS-100%25%20Exact%20Match-success.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-informational.svg)]()
