@@ -1,0 +1,104 @@
+{
+  "results": [
+    {
+      "engine": "Scratch HNSW (Pure Python)",
+      "ef_search": 10,
+      "recall_at_10": 0.412,
+      "p50_ms": 1.3215,
+      "p95_ms": 2.810675,
+      "p99_ms": 3.0869880000000007,
+      "qps": 633.562598518984,
+      "build_s": 125.7961688
+    },
+    {
+      "engine": "Scratch HNSW (Pure Python)",
+      "ef_search": 20,
+      "recall_at_10": 0.553,
+      "p50_ms": 1.6921,
+      "p95_ms": 2.7263,
+      "p99_ms": 3.028234,
+      "qps": 550.2850476546852,
+      "build_s": 125.7961688
+    },
+    {
+      "engine": "Scratch HNSW (Pure Python)",
+      "ef_search": 40,
+      "recall_at_10": 0.728,
+      "p50_ms": 2.8156,
+      "p95_ms": 4.326545,
+      "p99_ms": 5.5004050000000095,
+      "qps": 327.84090536544426,
+      "build_s": 125.7961688
+    },
+    {
+      "engine": "Scratch HNSW (Pure Python)",
+      "ef_search": 80,
+      "recall_at_10": 0.9050000000000001,
+      "p50_ms": 6.0821,
+      "p95_ms": 10.294485,
+      "p99_ms": 11.512259000000013,
+      "qps": 150.76820925662528,
+      "build_s": 125.7961688
+    },
+    {
+      "engine": "Scratch HNSW (Pure Python)",
+      "ef_search": 160,
+      "recall_at_10": 0.9690000000000001,
+      "p50_ms": 7.5871,
+      "p95_ms": 11.9204,
+      "p99_ms": 12.460223,
+      "qps": 125.13423775355012,
+      "build_s": 125.7961688
+    },
+    {
+      "engine": "FAISS IndexHNSWFlat (C++)",
+      "ef_search": 10,
+      "recall_at_10": 0.42199999999999993,
+      "p50_ms": 0.0293,
+      "p95_ms": 0.03982,
+      "p99_ms": 0.06358300000000004,
+      "qps": 33721.12628561794,
+      "build_s": 0.6447477
+    },
+    {
+      "engine": "FAISS IndexHNSWFlat (C++)",
+      "ef_search": 20,
+      "recall_at_10": 0.575,
+      "p50_ms": 0.04805,
+      "p95_ms": 0.05923,
+      "p99_ms": 0.06143900000000002,
+      "qps": 20505.669817704595,
+      "build_s": 0.6447477
+    },
+    {
+      "engine": "FAISS IndexHNSWFlat (C++)",
+      "ef_search": 40,
+      "recall_at_10": 0.746,
+      "p50_ms": 0.074,
+      "p95_ms": 0.08136,
+      "p99_ms": 0.08907300000000004,
+      "qps": 13481.631277384564,
+      "build_s": 0.6447477
+    },
+    {
+      "engine": "FAISS IndexHNSWFlat (C++)",
+      "ef_search": 80,
+      "recall_at_10": 0.879,
+      "p50_ms": 0.09245,
+      "p95_ms": 0.10963999999999999,
+      "p99_ms": 0.11944100000000002,
+      "qps": 10610.417307712712,
+      "build_s": 0.6447477
+    },
+    {
+      "engine": "FAISS IndexHNSWFlat (C++)",
+      "ef_search": 160,
+      "recall_at_10": 0.9550000000000003,
+      "p50_ms": 0.17985,
+      "p95_ms": 0.26654,
+      "p99_ms": 0.2906470000000001,
+      "qps": 5102.118909983316,
+      "build_s": 0.6447477
+    }
+  ]
+}

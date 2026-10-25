@@ -1,0 +1,39 @@
+{
+  "results": [
+    {
+      "selectivity": 1.0,
+      "actual_pct": 100.0,
+      "post_filter_recall": 0.88,
+      "overfetch_recall": 0.956,
+      "filter_aware_recall": 0.88
+    },
+    {
+      "selectivity": 0.5,
+      "actual_pct": 49.16,
+      "post_filter_recall": 0.44799999999999995,
+      "overfetch_recall": 0.912,
+      "filter_aware_recall": 0.956
+    },
+    {
+      "selectivity": 0.1,
+      "actual_pct": 9.54,
+      "post_filter_recall": 0.084,
+      "overfetch_recall": 0.736,
+      "filter_aware_recall": 1.0
+    },
+    {
+      "selectivity": 0.02,
+      "actual_pct": 1.9800000000000002,
+      "post_filter_recall": 0.032,
+      "overfetch_recall": 0.172,
+      "filter_aware_recall": 1.0
+    },
+    {
+      "selectivity": 0.005,
+      "actual_pct": 0.4,
+      "post_filter_recall": 0.004,
+      "overfetch_recall": 0.016,
+      "filter_aware_recall": 1.0
+    }
+  ]
+}
